@@ -1,0 +1,18 @@
+.app{
+    height: 100vh;
+
+    .sections{
+        width: 100vw;
+        height: 100vh;
+        left: 60px;
+        background-color: cadetblue;
+        position: relative;
+        scroll-snap-type: y mandatory;
+        scroll-behavior: smooth;
+
+        > *{
+            height: 100vh;
+            scroll-snap-align: start;
+        }
+    }
+}
