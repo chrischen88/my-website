@@ -17,11 +17,18 @@
 .greeting {
     margin-top: 1.5rem;
     padding-left: .5vw;
+    font-size: 3vmin;
 }
 
 .name {
     // text-align: right;
-    font-size: 3rem;
+    font-size: 7vmin;
+}
+
+.followup {
+    padding-top:8px;
+    font-size: 2.5vmin;
+    padding-left: .75vw;
 }
 
 .background {
