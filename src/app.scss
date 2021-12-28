@@ -5,14 +5,15 @@
         width: 100vw;
         height: 100vh;
         left: 70px;
-        background-color: cadetblue;
+        background-color: black;
         position: relative;
-        scroll-snap-type: y mandatory;
+        scroll-snap-type: y proximity;
         scroll-behavior: smooth;
 
         > *{
             height: 100vh;
             scroll-snap-align: start;
+            overflow-y: hidden;
         }
     }
 }

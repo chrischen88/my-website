@@ -1,3 +1,29 @@
 .intro{
-    background-color: papayawhip;
+    background-color: #45503b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    height: 50%;
+    width: 60%;
+    z-index: 2;
+    position:relative;
+    // background-color: red;
+}
+
+.greeting {
+    margin-top: 1.5rem;
+    padding-left: .5vw;
+}
+
+.name {
+    // text-align: right;
+    font-size: 3rem;
+}
+
+.background {
+    position: absolute;
 }
