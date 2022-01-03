@@ -1,4 +1,5 @@
 import './navbar.scss'
+import { motion } from 'framer-motion'
 
 export default function Navbar() {
     return (
@@ -8,10 +9,22 @@ export default function Navbar() {
             </div> */}
             <div className='nav-links'>
                 <div className='nav-pages'>
-                    <a href="#intro">Home</a>
-                    <a href="#portfolio">Portfolio</a>
-                    <a href="#about">About</a>
-                    <a href="#contact">Contact</a>
+                    <motion.a href="#intro"
+                        whileHover={{scale:1.1}}
+                        whileTap={{ scale: 0.95 }}
+                    >Home</motion.a>
+                    <motion.a href="#portfolio"
+                        whileHover={{scale:1.1}}
+                        whileTap={{ scale: 0.95 }}
+                    >Portfolio</motion.a>
+                    <motion.a href="#about"
+                        whileHover={{scale:1.1}}
+                        whileTap={{ scale: 0.95 }}
+                    >About</motion.a>
+                    <motion.a href="#contact"
+                        whileHover={{scale:1.1}}
+                        whileTap={{ scale: 0.95 }}
+                    >Contact</motion.a>
                 </div>
                 <div className='nav-icons'>
                     <a class="bi bi-linkedin" href="https://www.linkedin.com/in/chrischen2191/"></a>
